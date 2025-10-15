@@ -11993,6 +11993,9 @@ with pkgs;
 
   opcua-client-gui = libsForQt5.callPackage ../misc/opcua-client-gui { };
 
+  openfoam-com_2412 = callPackage ./../by-name/op/openfoam-com/2412.nix { };
+  openfoam-com_2506 = callPackage ./../by-name/op/openfoam-com/2506.nix { };
+
   ostinato = libsForQt5.callPackage ../applications/networking/ostinato {
     protobuf = protobuf_21;
   };
